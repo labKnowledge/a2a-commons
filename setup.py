@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="a2a-common",
+    name="a2a-commons",
     version="0.1.0",
     description="Common utilities for A2A (Agent-to-Agent) communication",
     author="gakwayaremy",
