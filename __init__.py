@@ -6,10 +6,7 @@ setup(
     description="Common utilities for A2A (Agent-to-Agent) communication",
     author="gakwayaremy",
     author_email="d4remy@gmail.com",
-    package_dir={"a2a_commons": "common"},
-    packages=["a2a_commons"] + [
-        "a2a_commons." + pkg for pkg in find_packages(where="common")
-    ],
+    packages=find_packages(),
     install_requires=[
         "starlette",
         "pydantic",
@@ -40,4 +37,4 @@ setup(
         "Programming Language :: Python :: 3.10",
     ],
     python_requires=">=3.8",
-) 
+)
