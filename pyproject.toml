@@ -26,8 +26,3 @@ dependencies = [
     "sse-starlette",
     "uvicorn",
 ]
-
-[tool.uv.workspace]
-members = [
-    "examples",
-]
