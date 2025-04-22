@@ -8,7 +8,7 @@ setup(
     author_email="d4remy@gmail.com",
     package_dir={"a2a_common": "common"},
     packages=["a2a_common"] + [
-        "a2a_common." + pkg for pkg in find_packages(where="samples/python/common")
+        "a2a_common." + pkg for pkg in find_packages(where="common")
     ],
     install_requires=[
         "starlette",
